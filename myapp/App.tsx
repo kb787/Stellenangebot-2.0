@@ -25,6 +25,7 @@ import MainContainer from './components/CardComponents/MainContainer';
 import NewUserProfile from './components/User/NewUserProfile';
 import GeneralCard from './components/Networking/GeneralCard';
 import IndividualCard from './components/Networking/IndividualCard';
+import ChatRoom from './components/Chatting/ChatRoom';
 import {
   Colors,
   DebugInstructions,
@@ -80,6 +81,7 @@ function App(): React.JSX.Element {
             <Stack.Screen name = "NewUserProfile" component = {NewUserProfile} />
             <Stack.Screen name = "GeneralCard" component = {GeneralCard} /> 
             <Stack.Screen name = "IndividualCard" component = {IndividualCard} /> 
+            <Stack.Screen name = "ChatRoom" component = {ChatRoom} />
           </Stack.Navigator> 
        </NavigationContainer> 
   )
